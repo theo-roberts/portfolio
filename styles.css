@@ -6,19 +6,25 @@ html{
 body {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
 }
 .main-title{
+    display: inline-block;
+    width: fit-content;
     color: black;
-    height: auto;
-    font-size: 200px;
+    font-size: 150px;
+    font-weight: bold;
 }
 
-.title {
-    font-size: 30px;
-    font-weight: bold;
-    
+.colour-title{
+    display: flex;
+    width: fit-content;
+    color: black;
+    font-size: 150px;
 }
+
+
+
+
 
 footer {
     display: flex;
@@ -39,8 +45,4 @@ li {
 .isla{
     max-width: 35px;
     max-height: auto;
-}
-
-iframe{
-    border-color: transparent;
 }
